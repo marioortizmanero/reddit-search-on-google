@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Adds a button to search Reddit posts with Google
 // @author       Mario O.M.
-// @namespace    https://github.com/marioortizmanero
+// @namespace    https://github.com/marioortizmanero/reddit-search-on-google/
 // @include      http*://www.google.*/search*
 // @include      http*://google.*/search*
 // @run-at       document-end
