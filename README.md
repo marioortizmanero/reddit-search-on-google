@@ -1,7 +1,7 @@
 # Reddit Search On Google
 Simple userscript that adds a button to your Google searches to search only for Reddit posts. You can just click on the button and it will automatically add `site:reddit.com` to your search.
 
-![Img](https://i.imgur.com/a9rxsI6.png)
+![Img](https://i.imgur.com/4NtzuSW.png)
 
 Posted on GitHub to share the code and maybe get suggestions on improving it.
 
