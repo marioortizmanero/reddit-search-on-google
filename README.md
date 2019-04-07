@@ -1,6 +1,8 @@
 # Reddit Search On Google
 Simple userscript that adds a button to your Google searches to search only for Reddit posts. Posted on GitHub to share the code and maybe get suggestions on improving it.
 
+![Img](https://i.imgur.com/a9rxsI6.png)
+
 ## Downloading the script
 The direct download link is here:
 
