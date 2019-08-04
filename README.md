@@ -15,3 +15,9 @@ The direct download link is here:
 **Firefox users:** you'll need a script manager extension like [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en). Then go to the download link above and click on 'Install X.X'. Finally, click on 'install' in the new window that will open.
 
 **Other browsers:** you can look for a script manager extension in your browser add-ons page. Look for Tampermonkey or Greasemonkey and install them. Then go to the download link above and click on 'Install X.X'. Finally, click on 'install' in the new window that will open.
+
+## Customizing the script
+There are a couple things you can change inside the script:
+
+* `useIcon` can be set to `false` if you don't want to see an icon inside the Reddit button. By default it's set to `true`
+* `appendRight` can be set to `true` if you want to append the Reddit button to the right of Google's buttons (next to 'Tools'). By default it's set to `false`, which appends it next to the usual buttons like 'Videos'.
