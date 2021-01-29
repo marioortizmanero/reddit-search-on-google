@@ -24,13 +24,13 @@ const redditIcon = '<svg foscusable="false" xmlns="http://www.w3.org/2000/svg" w
 (function() {
     // Creating the element
     var el = document.createElement('div');
-    el.className = 'hdtb-mitem hdtb-imb';
+    el.className = 'hdtb-mitem';
     var link = document.createElement('a');
 
     // Adding the svg icon
     if (useIcon) {
         var span = document.createElement('span');
-        span.className = 'HF9Klc iJddsb';
+        span.className = 'bmaJhd iJddsb';
         span.innerHTML += redditIcon;
         link.appendChild(span);
     }
