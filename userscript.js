@@ -48,7 +48,7 @@ const redditIcon = '<svg foscusable="false" xmlns="http://www.w3.org/2000/svg" w
         var toolsBtn = document.getElementById('hdtb-tls');
         toolsBtn.parentNode.insertBefore(el, toolsBtn.nextSibling);
     } else {
-        var button = document.getElementById('hdtb-msb-vis');
+        var button = document.querySelector('.MUFPAc');
         button.appendChild(el);
     }
 })();
