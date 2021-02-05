@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Reddit search on Google
-// @version      1.3.1
+// @version      1.3.2
 // @description  Adds a button to search Reddit posts with Google
 // @author       Mario O.M.
 // @namespace    https://github.com/marioortizmanero/reddit-search-on-google/
