@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Reddit search on Google
-// @version      1.3.2
+// @version      1.3.3
 // @description  Adds a button to search Reddit posts with Google
 // @author       Mario O.M.
 // @namespace    https://github.com/marioortizmanero/reddit-search-on-google/
@@ -31,6 +31,7 @@ const redditIcon = '<svg foscusable="false" xmlns="http://www.w3.org/2000/svg" w
     if (useIcon) {
         var span = document.createElement('span');
         span.className = 'bmaJhd iJddsb';
+        span.style.cssText = 'height:16px;width:16px';
         span.innerHTML += redditIcon;
         link.appendChild(span);
     }
