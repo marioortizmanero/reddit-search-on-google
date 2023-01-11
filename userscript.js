@@ -63,11 +63,8 @@ if (typeof trustedTypes !== 'undefined') {
         if (isImageSearch) {
             menuBar.insertBefore(el, menuBar.children[menuBar.childElementCount - 1]);
         } else {
-            console.log("test123");
             const lastMainElement = menuBar.querySelectorAll(".zItAnd.FOU1zf").length;
-            console.log(lastMainElement);
             menuBar.insertBefore(el, menuBar.children[lastMainElement]);
-            //menuBar.insertBefore(el, menuBar.children[menuBar.getElementsByClassName('zItAnd')]);
         }
     }
 })();
