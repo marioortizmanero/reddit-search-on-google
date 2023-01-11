@@ -28,13 +28,13 @@ if (typeof trustedTypes !== 'undefined') {
 (function () {
     // Creating the element
     let el = document.createElement('div');
-    el.className = 'hdtb-mitem';
+    el.className = 'zItAnd FOU1zf';
     const link = document.createElement('a');
 
     // Adding the svg icon
     if (useIcon) {
         const span = document.createElement('span');
-        span.className = isImageSearch ? 'm3kSL' : 'bmaJhd iJddsb';
+        span.className = isImageSearch ? 'm3kSL' : 'mUKzod';
         span.style.cssText = 'height:16px;width:16px';
         span.innerHTML = redditIcon;
         link.appendChild(span);
@@ -50,6 +50,7 @@ if (typeof trustedTypes !== 'undefined') {
         link.classList.add('NZmxZe');
         el = link;
     } else {
+        link.classList.add('zDN4ab');
         el.appendChild(link);
     }
 
@@ -58,11 +59,15 @@ if (typeof trustedTypes !== 'undefined') {
         const toolsBtn = document.querySelector(isImageSearch ? '.ssfWCe' : '.t2vtad');
         toolsBtn.parentNode.insertBefore(el, toolsBtn.nextSibling);
     } else {
-        const menuBar = document.querySelector(isImageSearch ? '.T47uwc' : '.MUFPAc');
+        const menuBar = document.querySelector(isImageSearch ? '.T47uwc' : '.nfdoRb');
         if (isImageSearch) {
             menuBar.insertBefore(el, menuBar.children[menuBar.childElementCount - 1]);
         } else {
-            menuBar.appendChild(el);
+            console.log("test123");
+            const lastMainElement = menuBar.querySelectorAll(".zItAnd.FOU1zf").length;
+            console.log(lastMainElement);
+            menuBar.insertBefore(el, menuBar.children[lastMainElement]);
+            //menuBar.insertBefore(el, menuBar.children[menuBar.getElementsByClassName('zItAnd')]);
         }
     }
 })();
